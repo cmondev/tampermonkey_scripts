@@ -14,8 +14,6 @@ const BASE_URL = "https://www.googleapis.com/youtube/v3/videos?part=statistics&k
 
 const ID_STATS_MAP = {};
 
-const UNIQUE_IDS = new Set();
-
 (function() {
     window.addEventListener("load", function(event) {
         const elements = getElementsForVideos();
