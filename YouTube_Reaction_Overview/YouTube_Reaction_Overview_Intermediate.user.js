@@ -11,10 +11,7 @@
 
 const API_KEY = "YourYtApiKey";
 const BASE_URL = "https://www.googleapis.com/youtube/v3/videos?part=statistics&key=" + API_KEY + "&id=";
-
 const ID_STATS_MAP = {};
-
-const UNIQUE_IDS = new Set();
 
 (function() {
     window.addEventListener("load", function(event) {
